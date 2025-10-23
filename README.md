@@ -73,7 +73,7 @@ A production-ready, AI-powered credit card statement parser that extracts key in
 
 ### 1. Clone and Setup
 ```bash
-git clone <repository-url>
+git clone https://github.com/pravesh03/credit-card-statement-parser.git
 cd credit-card-statement-parser
 ```
 
@@ -88,7 +88,7 @@ pip install -r requirements.txt
 python -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
 ```
 
-### 3. Frontend Setup
+### 3. Frontend Setup (in a new terminal)
 ```bash
 cd frontend
 
@@ -113,32 +113,53 @@ python scripts/generate_samples.py
 python scripts/evaluate.py
 ```
 
-## 🎨 UI Features
+## 🎨 UI Screenshots
 
-### Dark Theme Design
-- **High Contrast**: White text on dark backgrounds for excellent readability
-- **Gradient Backgrounds**: Beautiful gradients throughout the interface
-- **Glass Morphism**: Modern glass-like effects with backdrop blur
-- **Responsive Design**: Works perfectly on desktop and mobile
-- **Smooth Animations**: Elegant transitions and hover effects
-
-### Navigation
-- **Upload**: Upload and process PDF statements
-- **Statements**: View and manage all processed statements
-- **Statistics**: Analytics and processing insights
+### Main Dashboard
+![Main Dashboard](screenshots/dashboard.png)
+*Beautiful dark theme dashboard with modern UI design*
 
 ### Upload Interface
-- **Drag & Drop**: Easy file upload with visual feedback
-- **Multiple Files**: Upload multiple PDFs at once
-- **Progress Indicators**: Real-time processing status
-- **Extraction Results**: Immediate results with confidence scores
+![Upload Interface](screenshots/upload.png)
+*Drag-and-drop PDF upload with real-time progress and extraction results*
 
-### Statement Management
-- **List View**: Sortable and filterable statement list
-- **Detail View**: Complete statement information
-- **Edit Mode**: In-place editing with dark form inputs
-- **PDF Viewer**: View original PDFs in browser
-- **CRUD Operations**: Create, read, update, delete statements
+### Statements List
+![Statements List](screenshots/statements.png)
+*Comprehensive statement management with filtering and sorting*
+
+### Statement Details
+![Statement Details](screenshots/details.png)
+*Detailed view with extracted fields, confidence scores, and AI analysis*
+
+### Statistics Dashboard
+![Statistics](screenshots/statistics.png)
+*Processing statistics and analytics overview*
+
+### PDF Viewer
+![PDF Viewer](screenshots/pdf-viewer.png)
+*Integrated PDF viewer for original documents*
+
+## 🌐 Deployment
+
+### Frontend Deployment
+- **Platform**: Vercel
+- **Status**: ✅ Live
+- **URL**: Your Vercel deployment URL
+
+### Backend Deployment
+- **Platform**: Railway/Render/Heroku
+- **Status**: See screenshots below
+- **Configuration**: See `QUICK_RAILWAY_GUIDE.md` for deployment instructions
+
+### Backend Deployment Screenshots
+![Backend Deployment](screenshots/backend-deployment.png)
+*Backend API deployment on Railway platform*
+
+![Backend Environment](screenshots/backend-env.png)
+*Environment variables configuration*
+
+![Backend Logs](screenshots/backend-logs.png)
+*Real-time deployment logs and monitoring*
 
 ## 📊 API Documentation
 
@@ -180,11 +201,6 @@ curl -X GET "http://localhost:8000/api/v1/statements/1/reprocess"
 ### Get Statistics
 ```bash
 curl "http://localhost:8000/api/v1/statements/stats/summary"
-```
-
-### View PDF
-```bash
-curl "http://localhost:8000/uploads/filename.pdf"
 ```
 
 ## 🧪 Testing
@@ -281,27 +297,6 @@ export AI_PROVIDER="anthropic"
 - **AI Analysis**: Dark gradient AI analysis boxes
 - **Edit Mode**: Dark form inputs in edit mode
 - **Code Cleanup**: Removed unnecessary files and code
-
-## 🚀 Quick Demo
-
-1. **Start the application**:
-   ```bash
-   # Terminal 1 - Backend
-   cd backend && python -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
-   
-   # Terminal 2 - Frontend
-   cd frontend && npm run dev
-   ```
-
-2. **Open the application**: http://localhost:3000
-
-3. **Upload a PDF**: Use the upload interface or sample PDFs
-
-4. **View results**: Check extracted fields and confidence scores
-
-5. **View PDF**: Click "View PDF" to see the original document
-
-6. **Manage statements**: Edit, delete, or reprocess statements
 
 ## 📊 Performance
 
