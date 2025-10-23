@@ -16,11 +16,7 @@ export default defineConfig({
   preview: {
     host: '0.0.0.0',
     port: 3000,
-    allowedHosts: [
-      'credit-card-statement-parser-production.up.railway.app',
-      'localhost',
-      '127.0.0.1'
-    ]
+    strictPort: false
   },
   build: {
     outDir: 'dist',
