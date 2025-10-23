@@ -1,0 +1,21 @@
+{
+  "name": "credit-card-statement-parser",
+  "version": "1.0.0",
+  "description": "AI-powered credit card statement parser with FastAPI, React, and multi-issuer support",
+  "private": true,
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "dev": "cd frontend && npm run dev",
+    "start": "cd frontend && npm run preview"
+  },
+  "keywords": [
+    "fastapi",
+    "react",
+    "ai",
+    "pdf-parser",
+    "credit-card",
+    "fintech"
+  ],
+  "author": "pravesh03",
+  "license": "MIT"
+}
