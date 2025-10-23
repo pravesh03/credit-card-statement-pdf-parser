@@ -116,20 +116,8 @@ python scripts/evaluate.py
 ## 🎨 UI Screenshots
 
 ### Application Screenshots
-![Main Dashboard](screenshots/Screenshot%202025-10-23%20at%206.44.52%20PM.png)
-*Main application interface showing the credit card statement parser dashboard*
+Available under screenshot folder
 
-![Upload Interface](screenshots/Screenshot%202025-10-23%20at%206.45.02%20PM.png)
-*Upload interface and file processing with drag-and-drop functionality*
-
-![Statement Details](screenshots/Screenshot%202025-10-23%20at%206.45.14%20PM.png)
-*Statement details view showing extracted information and confidence scores*
-
-![Statistics Dashboard](screenshots/Screenshot%202025-10-23%20at%206.45.31%20PM.png)
-*Statistics and analytics dashboard with processing metrics*
-
-![Additional Features](screenshots/Screenshot%202025-10-23%20at%206.45.39%20PM.png)
-*Additional application features and interface components*
 
 ## 🌐 Deployment
 
