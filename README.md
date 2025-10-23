@@ -115,51 +115,33 @@ python scripts/evaluate.py
 
 ## 🎨 UI Screenshots
 
-### Main Dashboard
-![Main Dashboard](screenshots/dashboard.png)
-*Beautiful dark theme dashboard with modern UI design*
+### Application Screenshots
+![Main Dashboard](screenshots/Screenshot%202025-10-23%20at%206.44.52%20PM.png)
+*Main application interface showing the credit card statement parser dashboard*
 
-### Upload Interface
-![Upload Interface](screenshots/upload.png)
-*Drag-and-drop PDF upload with real-time progress and extraction results*
+![Upload Interface](screenshots/Screenshot%202025-10-23%20at%206.45.02%20PM.png)
+*Upload interface and file processing with drag-and-drop functionality*
 
-### Statements List
-![Statements List](screenshots/statements.png)
-*Comprehensive statement management with filtering and sorting*
+![Statement Details](screenshots/Screenshot%202025-10-23%20at%206.45.14%20PM.png)
+*Statement details view showing extracted information and confidence scores*
 
-### Statement Details
-![Statement Details](screenshots/details.png)
-*Detailed view with extracted fields, confidence scores, and AI analysis*
+![Statistics Dashboard](screenshots/Screenshot%202025-10-23%20at%206.45.31%20PM.png)
+*Statistics and analytics dashboard with processing metrics*
 
-### Statistics Dashboard
-![Statistics](screenshots/statistics.png)
-*Processing statistics and analytics overview*
-
-### PDF Viewer
-![PDF Viewer](screenshots/pdf-viewer.png)
-*Integrated PDF viewer for original documents*
+![Additional Features](screenshots/Screenshot%202025-10-23%20at%206.45.39%20PM.png)
+*Additional application features and interface components*
 
 ## 🌐 Deployment
 
 ### Frontend Deployment
 - **Platform**: Vercel
 - **Status**: ✅ Live
-- **URL**: Your Vercel deployment URL
+- **URL**: [https://credit-card-statement-parser-r3pguim24-pravesh-dagades-projects.vercel.app/]
 
 ### Backend Deployment
-- **Platform**: Railway/Render/Heroku
-- **Status**: See screenshots below
-- **Configuration**: See `QUICK_RAILWAY_GUIDE.md` for deployment instructions
-
-### Backend Deployment Screenshots
-![Backend Deployment](screenshots/backend-deployment.png)
-*Backend API deployment on Railway platform*
-
-![Backend Environment](screenshots/backend-env.png)
-*Environment variables configuration*
-
-![Backend Logs](screenshots/backend-logs.png)
-*Real-time deployment logs and monitoring*
+- **Platform**: Local Development
+- **Status**: See screenshots above for backend functionality
+- **Note**: Backend is designed to run locally for development and testing
 
 ## 📊 API Documentation
 
